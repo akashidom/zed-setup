@@ -1,0 +1,94 @@
+{
+  "window_decorations": "client",
+  "use_system_window_tabs": false,
+  "bottom_dock_layout": "contained",
+  "tabs": {
+    "show_close_button": "hover",
+    "close_position": "right",
+    "file_icons": true,
+    "git_status": true
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": true,
+    "show_tab_bar_buttons": false,
+    "show": true
+  },
+  "search": {
+    "button": false
+  },
+  "diagnostics": {
+    "button": true
+  },
+  "status_bar": {
+    "cursor_position_button": true,
+    "active_encoding_button": "non_utf8",
+    "active_language_button": true
+  },
+  "project_panel": {
+    "button": true
+  },
+  "title_bar": {
+    "show_user_menu": true,
+    "show_menus": true,
+    "show_user_picture": true,
+    "show_onboarding_banner": true,
+    "show_sign_in": false,
+    "show_branch_name": true,
+    "show_branch_icon": true
+  },
+  "debugger": {
+    "button": false
+  },
+  "audio": {
+    "experimental.denoise": true,
+    "experimental.auto_speaker_volume": true,
+    "experimental.auto_microphone_volume": true,
+    "experimental.rodio_audio": true
+  },
+  "calls": {
+    "mute_on_join": false
+  },
+  "terminal": {
+    "button": true,
+    "blinking": "terminal_controlled",
+    "cursor_shape": "hollow",
+    "font_family": "Adwaita Mono",
+    "toolbar": {
+      "breadcrumbs": true
+    },
+    "shell": "system"
+  },
+  "agent": {
+    "play_sound_when_agent_done": true,
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4.1",
+      "enable_thinking": false
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "context_servers": {
+    "github-activity-summarizer": {
+      "enabled": true,
+      "remote": false,
+      "settings": {}
+    }
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "base_keymap": "JetBrains",
+  "icon_theme": "Catppuccin Mocha",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Catppuccin Mocha (Blur)"
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  }
+}
